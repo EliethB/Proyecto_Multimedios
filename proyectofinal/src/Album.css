@@ -1,0 +1,30 @@
+.album-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px; /* Ajusta el espacio inferior según tus preferencias */
+  }
+  
+  .album-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar horizontalmente en dispositivos móviles */
+  }
+  
+  .album-card {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .album-cover {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media (max-width: 768px) {
+    .album-container {
+      align-items: center;
+    }
+  }
+  

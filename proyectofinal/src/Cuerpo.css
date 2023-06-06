@@ -1,0 +1,83 @@
+.DivPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px; /* ajusta la altura mínima según tus necesidades */
+}
+.Div-img :hover{
+box-shadow: 5px 10px 20px 1px rgb(5, 5, 5)!important;
+transition: all 0.7s linear;
+}
+.Div-img {
+  width: 90%; /* ajusta el ancho según tus necesidades */
+  max-width: 350px; /* establece un ancho máximo para evitar que el div se vuelva demasiado grande */
+  height: auto; /* el alto se ajustará automáticamente según el contenido */
+  border-radius: 10px; /* bordes redondos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; /* agrega margen para separar el div del contenido circundante */
+}
+
+img {
+  width: 100%; /* la imagen ocupará todo el ancho disponible dentro del div */
+  height: 100%; /* la imagen ocupará todo el alto disponible dentro del div */
+  object-fit: cover; /* la imagen se ajustará para cubrir todo el espacio sin deformarse */
+  border-radius: 10px; /* bordes redondos para la imagen (opcional) */
+}
+img :hover{
+transform: scale(1.8);
+
+}
+@media screen and (min-width: 768px) {
+  /* Ajusta los estilos para pantallas más grandes */
+  .DivPrincipal {
+    min-height: 300px; /* Ajusta la altura mínima para pantallas más grandes */
+  }
+
+  .Div-img {
+    max-width: 800px; /* Ajusta el ancho máximo para pantallas más grandes */
+    border-radius: 20px; /* bordes redondos */
+    height: 250px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+/* Ajusta los estilos para pantallas más grandes */
+.DivPrincipal {
+  min-height: 300px; /* Ajusta la altura mínima para pantallas más grandes */
+}
+
+.Div-img {
+  max-width: 800px; /* Ajusta el ancho máximo para pantallas más grandes */
+  border-radius: 20px; /* bordes redondos */
+  height: 250px;
+}
+}
+
+@media (min-width: 1025px) {
+ /* Ajusta los estilos para pantallas más grandes */
+  .DivPrincipal {
+    min-height: 300px; /* Ajusta la altura mínima para pantallas más grandes */
+  }
+
+  .Div-img {
+    max-width: 800px; /* Ajusta el ancho máximo para pantallas más grandes */
+    border-radius: 20px; /* bordes redondos */
+    height: 250px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+/* Ajusta los estilos para pantallas más grandes */
+.DivPrincipal {
+  min-height: 300px; /* Ajusta la altura mínima para pantallas más grandes */
+}
+
+.Div-img {
+  max-width: 800px; /* Ajusta el ancho máximo para pantallas más grandes */
+  border-radius: 20px; /* bordes redondos */
+  height: 250px;
+}
+}
